@@ -13,10 +13,17 @@ body {
     padding: 25px 40px 0 40px;
 }
 .extra_information {
+    width: 100%;
     display: flex;
     gap: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+.extra_information div {
+    width: 50%;
+}
+.extra_information div input {
+    width: 80%;
 }
 form {
     border: 1px solid black;
@@ -32,6 +39,7 @@ input {
     border: none;
     border-bottom: 1px solid black;
     padding-bottom: 2px;
+    padding-left: 3px;
 }
 .search_div {
     padding: 10px;
@@ -59,7 +67,23 @@ label {
     font-weight: 600;
 }
 .output_div {
+    padding: 10px;
     font-size: 16px;
     color: #ff0067;
     margin-top: 25px;
+    font-weight: 600;
+}
+.output_div div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.output_div div button {
+    padding: 4px 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
 }
